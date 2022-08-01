@@ -1,0 +1,32 @@
+.poi__container{
+  flex-direction: column;
+  display: flex;
+  padding: 2rem 2rem;
+  
+  .poi__search{
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 10px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    
+    width: 70%;
+    
+    padding: .1rem .7rem;
+   
+    .icon{
+      font-size: 1rem;
+      color: rgba(0,0,0,.2);
+    }
+    
+    input{
+      width: 100%;
+      border: none;
+      font-size: .8rem;
+      &:focus{
+        outline: none;
+      }
+    }
+  }
+    
+}
